@@ -38,7 +38,7 @@ body {
 }
 
 main {
-    width: min(40rem, calc(100vw - 10%));
+    width: min(30rem, calc(100vw - 10%));
     margin: 0 auto;
     padding-top: calc(100vw - 84%);
 
@@ -50,6 +50,7 @@ main {
         background-color: var(--color-white);
         border-radius: 0.5rem;
         padding: 30px 30px 0 30px;
+        box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
     }
 }
 
@@ -127,7 +128,7 @@ details {
 }
 
 .attribution {
-    margin-top: 20px;
+    margin-top: 30px;
     font-size: 11px;
     text-align: center;
     height: 15px;
